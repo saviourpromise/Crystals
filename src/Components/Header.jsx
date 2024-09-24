@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import arrow from "../assets/arrow.svg";
 import { FaHamburger, FaTimes, } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const [menu, setmenu] = useState(false);
@@ -13,7 +14,7 @@ const Header = () => {
             <header>
                 <div className="hidden mx:flex mx:px-8 mx:py-2 mx:justify-between">
                     <p className="text-white text-xl font-bold leading-7 mx:text-3xl">
-                        Logo
+                        <Link to="/">Logo</Link>
                     </p>
                     {!menu ? (
                         <FaHamburger
@@ -31,29 +32,26 @@ const Header = () => {
 
                 <div className="flex mx:flex-col mx:gap-4 items-center px-16 py-4 justify-between z-[-1]">
                     <p className="text-white text-xl font-bold leading-7 logo mx:hidden mx:text-2xl">
-                        LOGO
+                        <Link to="/">LOGO</Link>
                     </p>
 
                     {menu ?  <div><div className="flex mx:justify-center mx:items-center mx:flex-col gap-[17px] mx:ml-0 ml-24">
-                        <a
-                            href="www.com"
+                        <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
-                            About Us
-                        </a>
-                        <a
-                            href="www.com"
+                            <Link to="about">About Us</Link>
+                        </p>
+                        <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
-                            Testimonials
-                        </a>
+                            <Link to="/mentorship">Testimonials</Link>
+                        </p>
                         <div className="flex gap-2 one">
-                            <a
-                                href="www.com"
+                            <p
                                 className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                             >
-                                Resources
-                            </a>
+                                <Link to="/freeforex">Resources</Link>
+                            </p>
                             <img src={arrow} alt="" className="mt-1 two" />
                             {/* <div className="flex flex-col bg-yellow-400 p-3 absolute dave rounded">
                                 <p className="text-base font-semibold">Resources</p>
@@ -79,25 +77,22 @@ const Header = () => {
                     </button></div> : ""}
 
                     <div className="flex mx:justify-center mx:hidden mx:items-center mx:flex-col gap-[17px] mx:ml-0 ml-24">
-                        <a
-                            href="www.com"
+                        <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
-                            About Us
-                        </a>
-                        <a
-                            href="www.com"
+                            <Link to="/about">About Us</Link>
+                        </p>
+                        <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
-                            Testimonials
-                        </a>
+                            <Link to="/mentorship">Testimonials</Link>
+                        </p>
                         <div className="flex gap-2 one">
-                            <a
-                                href="www.com"
+                            <p
                                 className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                             >
-                                Resources
-                            </a>
+                                <Link to="/freeforex">Resources</Link>
+                            </p>
                             <img src={arrow} alt="" className="mt-1 two" />
                             {/* <div className="flex flex-col bg-yellow-400 p-3 absolute dave rounded">
                                 <p className="text-base font-semibold">Resources</p>

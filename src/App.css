@@ -10,6 +10,15 @@ body{
   box-sizing: border-box;
 }
 
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: black; /* Or your desired background color */
+}
+
+
 @font-face {
   font-family: 'ClashDisplay-Normal';
    /* url('/fonts/ClashDisplay-SemiBold.woff2') format('woff2'), */
@@ -116,6 +125,11 @@ body{
 
 .unv{
   font-family: 'ClashDisplay-SemiBold';
+}
+
+.intt{
+  font-family: 'Inter';
+  letter-spacing: -1px;
 }
 
 .one:hover .dave{

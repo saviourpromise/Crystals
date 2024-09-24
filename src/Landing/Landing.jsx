@@ -10,81 +10,44 @@ import forex from "../assets/forex.svg";
 import vip from "../assets/vip.svg";
 import crypto from "../assets/crypto.svg";
 import research from "../assets/research.svg";
-import star from "../assets/star.svg";
 import Youtube from "../assets/Youtube.svg";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
-import { useState } from "react";
-import "swiper/css";
-import "swiper/css/navigation";
-import { FaPlus, FaTimes } from "react-icons/fa";
+// import { useState } from "react";
+import Accordion from "../Components/Accordion";
+import Slider from "../Components/Slider";
 import Footer from "../Components/Footer";
 
 const Landing = () => {
-    const [activeIndex, setActiveIndex] = useState(null);
-
-    const data = [
-        {
-            question: "What do i learn from Crystals trading hub?",
-            answer:
-                "Lorem ipsum dolor sit amet, consectetur cdolor col adipiscing elit. Integer mattis nunc augue vel lacinia erat euismod ut. Sed eleifend tellus nonole tincidunt aliquet. Fusce aliquam mi felis.",
-        },
-        {
-            question: "How long is the mentorship program?",
-            answer:
-                "Lorem ipsum dolor sit amet, consectetur cdolor col adipiscing elit. Integer mattis nunc augue vel lacinia erat euismod ut. Sed eleifend tellus nonole tincidunt aliquet. Fusce aliquam mi felis.",
-        },
-        {
-            question: "Do you provide ongoing support?",
-            answer:
-                "Lorem ipsum dolor sit amet, consectetur cdolor col adipiscing elit. Integer mattis nunc augue vel lacinia erat euismod ut. Sed eleifend tellus nonole tincidunt aliquet. Fusce aliquam mi felis.",
-        },
-        {
-            question: "How to start trading",
-            answer:
-                "Lorem ipsum dolor sit amet, consectetur cdolor col adipiscing elit. Integer mattis nunc augue vel lacinia erat euismod ut. Sed eleifend tellus nonole tincidunt aliquet. Fusce aliquam mi felis.",
-        },
-        {
-            question: "How to start trading",
-            answer:
-                "Lorem ipsum dolor sit amet, consectetur cdolor col adipiscing elit. Integer mattis nunc augue vel lacinia erat euismod ut. Sed eleifend tellus nonole tincidunt aliquet. Fusce aliquam mi felis.",
-        },
-    ];
-
-    const toggleAccordion = (index) => {
-        setActiveIndex(activeIndex === index ? null : index);
-    };
 
     return (
         <div className="bg-black">
             <Header />
 
             <div className="bgg">
-            <div className="flex edi flex-col gap-4 justify-center items-center mx:-mt-20 mx:pt-0 pt-20">
-                <p className="text-white text-sm px-4 rounded-2xl mx:mt-20 flex items-center int justify-center py-1 font-medium leading-6 bg-gradient-to-b from-[#1a4943] to-[#021411]">
-                    Expert advice, forex mastery, mentorship
-                </p>
+                <div className="flex edi flex-col gap-4 justify-center items-center mx:-mt-20 mx:pt-0 pt-20">
+                    <p className="text-white text-sm px-4 rounded-2xl mx:mt-20 flex items-center int justify-center py-1 font-medium leading-6 bg-gradient-to-b from-[#1a4943] to-[#021411]">
+                        Expert advice, forex mastery, mentorship
+                    </p>
 
-                <p className="text-[#A4A4AD] text-[77px] leading-[94px] mx:text-[30px] mx:leading-8 text-center font-semibold fff">
-                    Achieve Financial Excellence <br /> with{" "}
-                    <span className="text-[#1CCBB1]">Crystals</span> trading hub
-                </p>
-                <p className="text-lg mx:text-[15px] mx:leading-5 font-normal leading-8 text-[#A6AAB2] int text-center tit">
-                    Unlock your trading potential with our expert-led courses and
-                    resources. Join our community of <br /> traders today and take the
-                    first step towards financial independence.
-                </p>
-            </div>
-
-            <div className="flex mx:px-0 px-14 justify-between pb-10">
-                <img src={Bitcoin} alt="" className="bitcoin mx:w-24" />
-                <div className="my-auto">
-                    <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 border px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
-                        Get Started
-                    </button>
+                    <p className="text-[#e4e4e7] text-[77px] leading-[94px] mx:text-[30px] mx:leading-8 text-center font-semibold fff">
+                        Achieve Financial Excellence <br /> with{" "}
+                        <span className="text-[#1CCBB1]">Crystals</span> trading hub
+                    </p>
+                    <p className="text-lg mx:text-[15px] mx:leading-5 font-normal leading-8 text-[#A6AAB2] int text-center tit">
+                        Unlock your trading potential with our expert-led courses and
+                        resources. Join our community of <br /> traders today and take the
+                        first step towards financial independence.
+                    </p>
                 </div>
-                <img src={Etherium} alt="" />
-            </div>
+
+                <div className="flex mx:px-0 px-14 justify-between pb-10">
+                    <img src={Bitcoin} alt="" className="bitcoin mx:w-24" />
+                    <div className="my-auto">
+                        <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 border px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
+                            Get Started
+                        </button>
+                    </div>
+                    <img src={Etherium} alt="" />
+                </div>
             </div>
 
             <div className="flex mx:flex-col mx:gap-4 mx:px-0 mx:justify-center mx:items-center px-[7rem] justify-between bg-[#0D0F11] py-16 mx:py-10">
@@ -166,7 +129,7 @@ const Landing = () => {
             </div>
 
             <div className="flex md:grid md:grid-cols-2 md:gap-8 mx:flex-col mx:px-0 mx:items-center mx:justify-center mx:gap-4 px-24 justify-between pb-20">
-                <div className="flex flex-col gap-3 px-4 py-4 rounded-xl bg-gradient-to-b from-[#1d3a31] to-[#010201]">
+                <div className="flex flex-col mx:w-[90%] gap-3 px-4 py-4 rounded-xl bg-gradient-to-b from-[#1d3a31] to-[#010201]">
                     <div>
                         <img src={toFro} alt="" />
                     </div>
@@ -185,7 +148,7 @@ const Landing = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col gap-3 px-4 py-4 rounded-xl bg-gradient-to-b from-[#1d3a31] to-[#010201]">
+                <div className="flex flex-col mx:w-[90%] gap-3 px-4 py-4 rounded-xl bg-gradient-to-b from-[#1d3a31] to-[#010201]">
                     <div>
                         <img src={forex} alt="" />
                     </div>
@@ -204,7 +167,7 @@ const Landing = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col gap-3 px-4 py-4 rounded-xl bg-gradient-to-b from-[#1d3a31] to-[#010201]">
+                <div className="flex flex-col mx:w-[90%] gap-3 px-4 py-4 rounded-xl bg-gradient-to-b from-[#1d3a31] to-[#010201]">
                     <div>
                         <img src={vip} alt="" />
                     </div>
@@ -223,7 +186,7 @@ const Landing = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col gap-3 px-4 py-4 rounded-xl bg-gradient-to-b from-[#1d3a31] to-[#010201]">
+                <div className="flex flex-col mx:w-[90%] gap-3 px-4 py-4 rounded-xl bg-gradient-to-b from-[#1d3a31] to-[#010201]">
                     <div>
                         <img src={toFro} alt="" />
                     </div>
@@ -308,7 +271,7 @@ const Landing = () => {
                         </div>
                     </div>
 
-                    <img src={crypto} alt="" className="mx:w-[90%]"/>
+                    <img src={crypto} alt="" className="mx:w-[90%]" />
                 </div>
             </div>
 
@@ -318,7 +281,7 @@ const Landing = () => {
                 </p>
 
                 <div className="flex mx:flex-col mx:px-0 px-24 mx:gap-8 mx:justify-center mx:items-center justify-between">
-                    <img src={research} alt="" className="mx:w-[90%]"/>
+                    <img src={research} alt="" className="mx:w-[90%]" />
                     <p className="text-[#AAAAB3] mx:text-center mx:text-lg int text-base font-normal leading-7 my-auto">
                         Less Doing, More Living was a conference about productivity and
                         entrepreneurship <br /> hosted by Ari Meisel, author of two
@@ -334,226 +297,7 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className="bg-[#0D0F11]">
-                <div className="flex px-24 mx:px-0 justify-between py-10">
-                    <div className="flex flex-col gap-6 mx:gap-4">
-                        <p className="text-[50px] mx:text-[45px] mx:leading-[50px] mx:text-center font-semibold unv text-white leading-[61.5px]">
-                            Our Success Stories
-                        </p>
-                        <p className="text-[#AAAAB3] mx:text-center mx:text-lg text-base font-normal int leading-7">
-                            Lorem ipsum dolor sit amet consectetur adipiscing elit tortor eu
-                            egestas morbi <br /> sem vulputate etiam facilisis.
-                        </p>
-                    </div>
-
-                    <div className="flex gap-2 my-auto mx:hidden">
-                        <p className="text-base font-bold int leading-8 text-[#1CCBB1]">
-                            Get Started
-                        </p>
-                        <div>
-                            <img src={arrow} alt="" className="mt-[10px]" />
-                        </div>
-                    </div>
-                </div>
-
-                <div className="pl-24 mx:pl-4 pb-10 mx:px-4">
-                    <Swiper
-                        spaceBetween={60}
-                        slidesPerView={3}
-                        breakpoints={{
-                            400: {
-                              slidesPerView: 1,
-                              spaceBetween: 20,
-                            },
-                            800: {
-                                slidesPerView: 2,
-                                spaceBetween: 40,
-                            },
-                            1024: {
-                              slidesPerView: 3,
-                              spaceBetween: 60, 
-                            },
-                          }}
-                        navigation
-                        modules={[Navigation]}
-                    >
-                        <SwiperSlide>
-                            {" "}
-                            <div className="flex flex-col gap-4 rounded-2xl px-3 py-5 bg-gradient-to-b from-[#1d3a31]">
-                                <div>
-                                    <img src={star} alt="" />
-                                </div>
-                                <p className="text-[#A1A1AACC] text-base font-normal int leading-7">
-                                    “Lorem ipsum dolor sit amet dolor sit <br /> consectetur eget
-                                    maecenas sapien fusce <br /> egestas risus purus suspendisse
-                                    turpis”
-                                </p>
-
-                                <div className="flex flex-col gap-2">
-                                    <p className="text-[#A1A1AACC] text-[17px] unv font-semibold leading-[20.91px]">
-                                        Brian clack
-                                    </p>
-                                    <p className="text-[#A1A1AACC] text-[15px] font-normal int leading-[18.15px]">
-                                        VP of Marketing at Snapchat
-                                    </p>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="flex flex-col gap-4 rounded-2xl px-3 py-5 bg-gradient-to-b from-[#1d3a31]">
-                                <div>
-                                    <img src={star} alt="" />
-                                </div>
-                                <p className="text-[#A1A1AACC] text-base font-normal int leading-7">
-                                    “Lorem ipsum dolor sit amet dolor sit <br /> consectetur eget
-                                    maecenas sapien fusce <br /> egestas risus purus suspendisse
-                                    turpis”
-                                </p>
-
-                                <div className="flex flex-col gap-2">
-                                    <p className="text-[#A1A1AACC] text-[17px] unv font-semibold leading-[20.91px]">
-                                        Jessie james
-                                    </p>
-                                    <p className="text-[#A1A1AACC] text-[15px] font-normal int leading-[18.15px]">
-                                        VP of Marketing at Snapchat
-                                    </p>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            {" "}
-                            <div className="flex flex-col gap-4 rounded-2xl px-3 py-5 bg-gradient-to-b from-[#1d3a31]">
-                                <div>
-                                    <img src={star} alt="" />
-                                </div>
-                                <p className="text-[#A1A1AACC] text-base font-normal int leading-7">
-                                    “Lorem ipsum dolor sit amet dolor sit <br /> consectetur eget
-                                    maecenas sapien fusce <br /> egestas risus purus suspendisse
-                                    turpis”
-                                </p>
-
-                                <div className="flex flex-col gap-2">
-                                    <p className="text-[#A1A1AACC] text-[17px] unv font-semibold leading-[20.91px]">
-                                        Ikenna Okafor
-                                    </p>
-                                    <p className="text-[#A1A1AACC] text-[15px] font-normal int leading-[18.15px]">
-                                        VP of Marketing at Snapchat
-                                    </p>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="flex flex-col gap-4 rounded-2xl px-3 py-5 bg-gradient-to-b from-[#1d3a31]">
-                                <div>
-                                    <img src={star} alt="" />
-                                </div>
-                                <p className="text-[#A1A1AACC] text-base font-normal int leading-7">
-                                    “Lorem ipsum dolor sit amet dolor sit <br /> consectetur eget
-                                    maecenas sapien fusce <br /> egestas risus purus suspendisse
-                                    turpis”
-                                </p>
-
-                                <div className="flex flex-col gap-2">
-                                    <p className="text-[#A1A1AACC] text-[17px] unv font-semibold leading-[20.91px]">
-                                        Brian clack
-                                    </p>
-                                    <p className="text-[#A1A1AACC] text-[15px] font-normal int leading-[18.15px]">
-                                        VP of Marketing at Snapchat
-                                    </p>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <div className="flex flex-col gap-4 rounded-2xl px-3 py-5 bg-gradient-to-b from-[#1d3a31]">
-                                <div>
-                                    <img src={star} alt="" />
-                                </div>
-                                <p className="text-[#A1A1AACC] text-base font-normal int leading-7">
-                                    “Lorem ipsum dolor sit amet dolor sit <br /> consectetur eget
-                                    maecenas sapien fusce <br /> egestas risus purus suspendisse
-                                    turpis”
-                                </p>
-
-                                <div className="flex flex-col gap-2">
-                                    <p className="text-[#A1A1AACC] text-[17px] unv font-semibold leading-[20.91px]">
-                                        Brian clack
-                                    </p>
-                                    <p className="text-[#A1A1AACC] text-[15px] font-normal int leading-[18.15px]">
-                                        VP of Marketing at Snapchat
-                                    </p>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <div className="flex flex-col gap-4 rounded-2xl px-3 py-5 bg-gradient-to-b from-[#1d3a31]">
-                                <div>
-                                    <img src={star} alt="" />
-                                </div>
-                                <p className="text-[#A1A1AACC] text-base font-normal int leading-7">
-                                    “Lorem ipsum dolor sit amet dolor sit <br /> consectetur eget
-                                    maecenas sapien fusce <br /> egestas risus purus suspendisse
-                                    turpis”
-                                </p>
-
-                                <div className="flex flex-col gap-2">
-                                    <p className="text-[#A1A1AACC] text-[17px] unv font-semibold leading-[20.91px]">
-                                        Brian clack
-                                    </p>
-                                    <p className="text-[#A1A1AACC] text-[15px] font-normal int leading-[18.15px]">
-                                        VP of Marketing at Snapchat
-                                    </p>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <div className="flex flex-col gap-4 rounded-2xl px-3 py-5 bg-gradient-to-b from-[#1d3a31]">
-                                <div>
-                                    <img src={star} alt="" />
-                                </div>
-                                <p className="text-[#A1A1AACC] text-base font-normal int leading-7">
-                                    “Lorem ipsum dolor sit amet dolor sit <br /> consectetur eget
-                                    maecenas sapien fusce <br /> egestas risus purus suspendisse
-                                    turpis”
-                                </p>
-
-                                <div className="flex flex-col gap-2">
-                                    <p className="text-[#A1A1AACC] text-[17px] unv font-semibold leading-[20.91px]">
-                                        Brian clack
-                                    </p>
-                                    <p className="text-[#A1A1AACC] text-[15px] font-normal int leading-[18.15px]">
-                                        VP of Marketing at Snapchat
-                                    </p>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <div className="flex flex-col gap-4 rounded-2xl px-3 py-5 bg-gradient-to-b from-[#1d3a31]">
-                                <div>
-                                    <img src={star} alt="" />
-                                </div>
-                                <p className="text-[#A1A1AACC] text-base font-normal int leading-7">
-                                    “Lorem ipsum dolor sit amet dolor sit <br /> consectetur eget
-                                    maecenas sapien fusce <br /> egestas risus purus suspendisse
-                                    turpis”
-                                </p>
-
-                                <div className="flex flex-col gap-2">
-                                    <p className="text-[#A1A1AACC] text-[17px] unv font-semibold leading-[20.91px]">
-                                        Brian clack
-                                    </p>
-                                    <p className="text-[#A1A1AACC] text-[15px] font-normal int leading-[18.15px]">
-                                        VP of Marketing at Snapchat
-                                    </p>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
-                </div>
-            </div>
+            <Slider />
 
             <div className="flex flex-col gap-8 py-20">
                 <div className="flex flex-col gap-4 justify-center items-center">
@@ -570,8 +314,8 @@ const Landing = () => {
                 </div>
 
                 <div className="flex mx:flex-col px-36 mx:px-4 mx:justify-center mx:items-center mx:gap-4 justify-between">
-                    <img src={Youtube} alt="" className="md:w-[50%] mx:w-[90%]"/>
-                    <img src={Youtube} alt="" className="md:w-[50%] mx:w-[90%]"/>
+                    <img src={Youtube} alt="" className="md:w-[50%] mx:w-[100%]" />
+                    <img src={Youtube} alt="" className="md:w-[50%] mx:w-[100%]" />
                 </div>
 
                 <div className="flex justify-center items-center">
@@ -581,55 +325,7 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className="bg-[#0D0F11] py-14">
-                <div className="flex flex-col gap-4 justify-center items-center">
-                    <p className="text-[50px] mx:text-center mx:text-[40px] mx:leading-[50px] font-semibold unv text-white leading-[61.5px]">
-                        Frequently Asked Questions
-                    </p>
-                    <p className="text-base mx:text-center font-normal leading-7 int text-[#AAAAB3]">
-                        Have a question not answered here? contact us at{" "}
-                        <a href="support@loremipsum.com" className="text-[#1CCBB1]">
-                            support@loremipsum.com
-                        </a>
-                    </p>
-                </div>
-
-                <div className="max-w-[45rem] mx:max-w-[23rem] mx-auto mt-10 flex flex-col gap-4">
-                    {data.map((item, index) => (
-                        <div
-                            key={index}
-                            className="bg-[#101214] shadow-inner border border-gray-700 rounded-lg"
-                        >
-                            <div
-                                className="flex justify-between items-center py-4 cursor-pointer px-6"
-                                onClick={() => toggleAccordion(index)}
-                            >
-                                <h3 className="text-[22px] unv font-medium text-[#A4A4AD] leading-7">
-                                    {item.question}
-                                </h3>
-                                <div className="text-2xl">
-                                    {activeIndex === index ? (
-                                        <FaTimes className="text-[#1CCBB1] transition duration-100 transform rotate-90" />
-                                    ) : (
-                                        <FaPlus className="text-[#1CCBB1] transition duration-100 transform rotate-0" />
-                                    )}
-                                </div>
-                            </div>
-
-                            <div
-                                className={`overflow-hidden transition-all duration-300 ${activeIndex === index
-                                        ? "max-h-40 opacity-100"
-                                        : "max-h-0 opacity-0"
-                                    }`}
-                            >
-                                <p className="text-[#AAAAB3] font-normal int text-base leading-7 px-6 pb-3">
-                                    {item.answer}
-                                </p>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </div>
+            <Accordion />
 
             <div className="flex flex-col gap-4 justify-center items-center pt-20 pb-16 bg-gradient-to-b from-[#34867b]">
                 <p className="text-[50px] mx:text-[30px] mx:leading-[45px] font-semibold unv text-white leading-[61.5px] text-center">
