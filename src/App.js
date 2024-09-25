@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
-import nprogress from 'nprogress'; // Import nprogress
-import 'nprogress/nprogress.css';  // Import nprogress CSS for the loading bar
-import { AnimatePresence, motion } from 'framer-motion';  // Import Framer Motion for animations
+import nprogress from 'nprogress'; 
+import 'nprogress/nprogress.css'; 
+import { AnimatePresence, motion } from 'framer-motion'; 
 import About from './About/About';
 import Mentorship from './Mentorship/Mentorship';
 import Landing from './Landing/Landing';
@@ -11,23 +11,23 @@ import Loading from './Components/Loading';
 import './App.css';
 
 function App() {
-  const location = useLocation();  // useLocation hook to detect route changes
-  const [isLoading, setIsLoading] = useState(false); // State to control loading
+  const location = useLocation();
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
-    nprogress.start();  // Start nprogress bar on route change
-    setIsLoading(true); // Set loading state to true
+    nprogress.start();
+    setIsLoading(true);
 
     const timer = setTimeout(() => {
-      setIsLoading(false); // Simulate loading complete
-      nprogress.done();  // Finish nprogress bar when the route change completes
-    }, 3000); // Adjust the delay as necessary
+      setIsLoading(false); 
+      nprogress.done();  
+    }, 3000); 
 
     return () => {
-      clearTimeout(timer); // Clean up the timer
-      nprogress.done();  // Ensure nprogress finishes
+      clearTimeout(timer);
+      nprogress.done(); 
     };
-  }, [location]);  // Run the effect every time the location (route) changes
+  }, [location]); 
 
   return (
     <div>
@@ -48,14 +48,13 @@ function App() {
   );
 }
 
-// PageTransition component for route animations using Framer Motion
 const PageTransition = ({ children }) => {
   return (
     <motion.div
-      initial={{ opacity: 0, x: 100 }}  // Start with 0 opacity and translateX(100)
-      animate={{ opacity: 1, x: 0 }}    // Animate to 1 opacity and translateX(0)
-      exit={{ opacity: 0, x: -100 }}     // Exit with 0 opacity and translateX(-100)
-      transition={{ duration: 0.5 }}     // Transition duration for the animation
+      initial={{ opacity: 0, x: 100 }} 
+      animate={{ opacity: 1, x: 0 }}    
+      exit={{ opacity: 0, x: -100 }}   
+      transition={{ duration: 0.5 }}    
     >
       {children}
     </motion.div>
