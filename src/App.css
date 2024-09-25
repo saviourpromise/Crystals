@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loading {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: black; /* Or your desired background color */
 }
 
-.App-link {
-  color: #61dafb;
+
+@font-face {
+  font-family: 'ClashDisplay-Normal';
+   /* url('/fonts/ClashDisplay-SemiBold.woff2') format('woff2'), */
+       /* url('/fonts/ClashDisplay-SemiBold.woff') format('woff'), */
+       src: url('../public/Fonts/ClashDisplay_Complete/Fonts/TTF/ClashDisplay-Variable.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'ClashDisplay-Medium';
+   /* url('/fonts/ClashDisplay-SemiBold.woff2') format('woff2'), */
+       /* url('/fonts/ClashDisplay-SemiBold.woff') format('woff'), */
+       src: url('../public/Fonts/ClashDisplay_Complete/Fonts/TTF/ClashDisplay-Variable.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay-SemiBold';
+   /* url('/fonts/ClashDisplay-SemiBold.woff2') format('woff2'), */
+       /* url('/fonts/ClashDisplay-SemiBold.woff') format('woff'), */
+       src: url('../public/Fonts/ClashDisplay_Complete/Fonts/TTF/ClashDisplay-Variable.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay-Bold';
+   /* url('/fonts/ClashDisplay-SemiBold.woff2') format('woff2'), */
+       /* url('/fonts/ClashDisplay-SemiBold.woff') format('woff'), */
+       src: url('../public/Fonts/ClashDisplay_Complete/Fonts/TTF/ClashDisplay-Variable.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #c5d1ee;
+  border-radius: 80px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(269.11deg, #50FCDA 19.49%, #12CDA8 87.44%); 
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(269.11deg, #44a07d 19.49%, #03a863 87.44%);  
+}  ::-webkit-scrollbar {
+  width: 6px;
+}
+
+.one:hover .two{
+  transform: rotate(180deg);
+  transition: 0.4s ease-in-out;
+}
+
+.one{
+  position: relative;
+}
+
+.dave{
+  position: absolute;
+  top: 0%;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.bgg{
+  background-image: url(./assets/Dot\ Grid.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.edi{
+  background-image: url(./assets/Gradient.png);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: center;
+}
+
+.int{
+  font-family: 'Inter';
+}
+
+.tit{
+  letter-spacing: -0.6px;
+}
+
+.fff{
+  font-family: 'ClashDisplay-SemiBold';
+}
+
+.logo{
+  font-family: 'ClashDisplay-Bold';
+}
+
+.unv{
+  font-family: 'ClashDisplay-SemiBold';
+}
+
+.intt{
+  font-family: 'Inter';
+  letter-spacing: -1px;
+}
+
+.one:hover .dave{
+  position: absolute;
+  top: 200%;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
 }
