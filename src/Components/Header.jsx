@@ -65,12 +65,11 @@ const Header = () => {
                         >
                             Contact Us
                         </a>
-                        <a
-                            href="www.com"
+                        <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
-                            FAQs
-                        </a>
+                            <Link to="/wttvip">FAQs</Link>
+                        </p>
                     </div>
                     <button className="bg-[#1CCBB1] mt-4 mb-4 text-white int text-base font-medium leading-8 py-1 border px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
                         Get Started
@@ -106,12 +105,11 @@ const Header = () => {
                         >
                             Contact Us
                         </a>
-                        <a
-                            href="www.com"
+                        <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
-                            FAQs
-                        </a>
+                            <Link to="/wttvip">FAQs</Link>
+                        </p>
                     </div>
                     <button className="bg-[#1CCBB1] mx:hidden text-white int text-base font-medium leading-8 py-1 border px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
                         Get Started

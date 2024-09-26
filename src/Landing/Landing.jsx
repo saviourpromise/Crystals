@@ -42,7 +42,7 @@ const Landing = () => {
                 <div className="flex mx:px-0 px-14 justify-between pb-10">
                     <img src={Bitcoin} alt="" className="bitcoin mx:w-24" />
                     <div className="my-auto">
-                        <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 border px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
+                        <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 border px-10 mx:px-8 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
                             Get Started
                         </button>
                     </div>
@@ -57,7 +57,7 @@ const Landing = () => {
                     <p className="text-lg font-medium int leading-6 text-[#1CCBB1]">
                         About crystals trading hub
                     </p>
-                    <p className="text-[#A4A4AD] mx:text-center mx:text-[40px] mx:leading-[49px] unv text-[50px] font-semibold leading-[61.5px] -mb-4 -mt-4">
+                    <p className="text-[#A4A4AD] mx:text-center mx:text-[36px] mx:leading-[49px] unv text-[50px] font-semibold leading-[61.5px] -mb-4 -mt-4">
                         Unveiling our story
                     </p>
                     <p className="text-[#A1A1AA] mx:text-center int mx:text-[12px] mx:leading-5 text-[17px] font-normal leading-7 border-b-[1px] border-b-[#272626] pb-6">
@@ -111,7 +111,7 @@ const Landing = () => {
             </div>
 
             <div className="flex mx:px-0 mx:justify-center mx:gap-2 mx:items-center mx:flex-col px-24 justify-between py-10">
-                <p className="font-semibold unv mx:text-center mx:text-[30px] mx:leading-[49px] text-[45px] leading-[41.5px] text-[#A4A4AD]">
+                <p className="font-semibold unv mx:text-center mx:text-[28px] mx:leading-[49px] text-[45px] leading-[41.5px] text-[#A4A4AD]">
                     Services we can offer you
                 </p>
                 <p className="font-normal mx:text-center int mx:text-[12px] mx:leading-6 text-[16.9px] leading-7 text-[#A1A1AACC]">
@@ -342,7 +342,7 @@ const Landing = () => {
                         className="text-[#576A67] rounded-[2rem] int mx:pr-0 pr-44 pl-2 ml-4 bg-inherit text-[15px] font-normal leading-7"
                         placeholder="Enter your email"
                     />
-                    <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 mx:py-2 px-10 mx:px-6 rounded-[2rem] hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
+                    <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 mx:py-2 px-10 mx:px-4 rounded-[2rem] hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
                         Let's Go
                     </button>
                 </div>

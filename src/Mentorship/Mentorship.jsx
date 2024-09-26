@@ -95,7 +95,7 @@ const Mentorship = () => {
       </div>
 
       <div className="flex flex-col gap-10 py-14">
-        <p className="text-[50px] font-semibold text-center unv leading-[61.5px] text-[#e4e4e7]">
+        <p className="text-[50px] mx:text-[40px] mx:leading-[50px] font-semibold text-center unv leading-[61.5px] text-[#e4e4e7]">
           Why Choose Our Mentorship <br /> Program?
         </p>
 

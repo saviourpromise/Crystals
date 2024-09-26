@@ -8,6 +8,7 @@ import Mentorship from './Mentorship/Mentorship';
 import Landing from './Landing/Landing';
 import FreeForex from './FreeForex/FreeForex';
 import Loading from './Components/Loading';
+import WttVip from './WttVip/WttVip';
 import './App.css';
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
             <Route path="/about" element={<PageTransition><About /></PageTransition>} />
             <Route path="/mentorship" element={<PageTransition><Mentorship /></PageTransition>} />
             <Route path="/freeforex" element={<PageTransition><FreeForex /></PageTransition>} />
+            <Route path="/wttvip" element={<PageTransition><WttVip /></PageTransition>} />
           </Routes>
         </AnimatePresence>
       )}

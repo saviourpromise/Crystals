@@ -13,7 +13,7 @@ const Footer = () => {
                         <p className="text-white text-[30px] int font-bold leading-[38.28px]">
                             Logo
                         </p>
-                        <p className="text-[#A1A1AA] int mx:text-center text-base font-normal leading-7">
+                        <p className="text-[#A1A1AA] mx:text-sm int mx:text-center text-base font-normal leading-7">
                             Amet minim mollit non deserunt ullamco est sit <br /> aliqua dolor
                             do amet sint. Velit officia consequat <br /> duis enim velit
                             mollit.

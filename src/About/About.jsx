@@ -281,13 +281,13 @@ const About = () => {
       </div>
 
       <div className="py-10">
-      <p className="text-[50px] font-semibold leading-[61.5px] text-center pb-12 unv text-[#e4e4e7]">
+      <p className="text-[50px] mx:text-[40px] mx:leading-[50px] font-semibold leading-[61.5px] text-center pb-12 unv text-[#e4e4e7]">
         Meet your CEO
       </p>
 
-      <div className="flex px-32 mx:px-0 mx:flex-col justify-between">
-        <img src={ceo} alt="" />
-        <div className="h-[498px] mx:h-[550px] mx:px-10 mx:w-[410px] bg-gradient-to-b from-[#1CCBB1] flex justify-center items-center w-[672px]">
+      <div className="flex px-32 mx:px-0 mx:flex-col mx:justify-center mx:items-center justify-between">
+        <img src={ceo} alt="" className="mx:w-[90%]"/>
+        <div className="h-[498px] mx:h-[550px] mx:px-10 mx:w-[370px] bg-gradient-to-b from-[#1CCBB1] flex justify-center items-center w-[672px]">
           <p className="text-white font-normal text-base leading-7 intt">
             Our vision is to foster widespread adoption and trust in blockchain{" "}
             <br /> technology and cryptocurrencies by championing innovation,
@@ -323,7 +323,7 @@ const About = () => {
                         className="text-[#576A67] rounded-[2rem] int mx:pr-0 pr-44 pl-2 ml-4 bg-inherit text-[15px] font-normal leading-7"
                         placeholder="Enter your email"
                     />
-                    <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 mx:py-2 px-10 mx:px-6 rounded-[2rem] hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
+                    <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 mx:py-2 px-10 mx:px-4 rounded-[2rem] hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
                         Let's Go
                     </button>
                 </div>

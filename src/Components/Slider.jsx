@@ -35,8 +35,12 @@ const Slider = () => {
                 <div className="pl-24 mx:pl-4 pb-10 mx:px-4">
                     <Swiper
                         spaceBetween={60}
-                        slidesPerView={3}
+                        slidesPerView={1}
                         breakpoints={{
+                            375: {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
                             400: {
                                 slidesPerView: 1,
                                 spaceBetween: 20,

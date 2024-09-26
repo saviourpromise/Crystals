@@ -5,7 +5,6 @@ import forex from "../assets/forex.svg";
 import imgReplace1 from "../assets/imgReplace1.png";
 import Accordion from "../Components/Accordion";
 import Footer from "../Components/Footer";
-// import imgReplace2 from "../assets/imgReplace2.png";
 
 const FreeForex = () => {
     return (
@@ -14,7 +13,7 @@ const FreeForex = () => {
 
             <div className="bgg mx:-mt-10">
                 <div className="flex flex-col gap-4 justify-center items-center mx:h-[250px] h-[516px] edi">
-                    <p className="font-bold mx:text-center mx:text-[40px] mx:pt-40 mx:leading-[80px] text-[77px] leading-[94.71px] text-[#e4e4e7] logo">
+                    <p className="font-bold mx:text-center mx:text-[32px] mx:pt-40 mx:leading-[50px] text-[77px] leading-[94.71px] text-[#e4e4e7] logo">
                         Free Forex Training
                     </p>
                     <p className="text-[16.9px] mx:pb-36 font-normal leading-7 text-[#A1A1AA] text-center int">
@@ -55,7 +54,7 @@ const FreeForex = () => {
             </div>
 
             <div className="flex flex-col gap-10 py-14">
-                <p className="text-[50px] mx:text-[32px] mx:leading-[40px] mx:text-center px-16 font-semibold unv leading-[61.5px] text-[#e4e4e7]">
+                <p className="text-[50px] mx:text-[28px] mx:leading-[40px] mx:text-center px-16 font-semibold unv leading-[61.5px] text-[#e4e4e7]">
                     Why Choose Our Free Training
                 </p>
 
