@@ -13,7 +13,7 @@ const About = () => {
 
       <div className="bgg mx:-mt-10">
         <div className="flex flex-col gap-4 justify-center items-center mx:h-[250px] h-[516px] edi">
-          <p className="font-bold mx:text-[60px] mx:pt-40 mx:leading-[80px] text-[77px] leading-[94.71px] text-[#e4e4e7] logo">
+          <p className="font-bold mx:text-[60px] mx:mt-40 mx:leading-[80px] text-[77px] leading-[94.71px] text-[#e4e4e7] logo">
             About us
           </p>
           <p className="text-[16.9px] mx:pb-36 font-normal leading-7 text-[#A1A1AA] text-center int">
@@ -25,8 +25,8 @@ const About = () => {
       </div>
 
       <div className="bg-[#0D0F11] flex flex-col gap-8 py-10">
-        <div className="flex flex-col gap-[17px] px-16">
-          <p className="text-[#e4e4e7] mx:text-center mx:text-[32px] mx:leading-[50px] text-[50px] leading-[61.5px] font-semibold unv">
+        <div className="flex flex-col gap-[17px] mx:px-0 px-16">
+          <p className="text-[#e4e4e7] mx:text-center mx:text-[26px] mx:leading-[40px] text-[50px] leading-[61.5px] font-semibold unv">
             We are a lorem ipsum dolor
           </p>
           <p className="text-base mx:text-sm font-normal mx:text-center leading-7 text-[#AAAAB3] intt">
@@ -51,7 +51,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="flex px-16 mx:gap-8 mx:flex-col justify-between">
+        <div className="flex px-16 mx:px-4 mx:gap-8 mx:flex-col justify-between">
           <img src={empty} alt="" />
           <img src={empty} alt="" />
         </div>
