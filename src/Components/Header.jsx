@@ -15,7 +15,7 @@ const Header = () => {
             <header>
                 <div className="hidden mx:flex mx:px-8 mx:py-2 mx:justify-between">
                     <p className="text-white text-xl font-bold leading-7 mx:text-3xl">
-                    <Link to="/">Logo</Link>
+                    <Link to="/"><div className="w-44 pt-2"><img src={logo} alt="" /></div></Link>
                     </p>
                     {!menu ? (
                         <FaHamburger

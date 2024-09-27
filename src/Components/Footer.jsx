@@ -3,6 +3,8 @@ import x from "../assets/xxx.svg";
 import facebook from "../assets/facebook.svg";
 import instagram from "../assets/instagram.svg";
 import github from "../assets/github.svg";
+import { Link } from "react-router-dom";
+import logo from "../assets/logoImage.jpeg";
 
 const Footer = () => {
     return (
@@ -11,7 +13,7 @@ const Footer = () => {
                 <div className="flex mx:flex-col mx:gap-8 mx-20 mx:mx-4 justify-between border-b-[#38383f] border-b pb-8">
                     <div className="flex flex-col gap-6 mx:justify-center mx:items-center">
                         <p className="text-white text-[30px] int font-bold leading-[38.28px]">
-                            Logo
+                        <Link to="/"><div className="w-44"><img src={logo} alt="" /></div></Link>
                         </p>
                         <p className="text-[#A1A1AA] mx:text-sm int mx:text-center text-base font-normal leading-7">
                             Amet minim mollit non deserunt ullamco est sit <br /> aliqua dolor

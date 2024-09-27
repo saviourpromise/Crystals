@@ -42,7 +42,7 @@ const Landing = () => {
                 <div className="flex mx:px-0 px-14 justify-between pb-10">
                     <img src={Bitcoin} alt="" className="bitcoin mx:w-24" />
                     <div className="my-auto">
-                        <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 border px-10 mx:px-8 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
+                        <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 px-10 mx:px-8 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
                             Get Started
                         </button>
                     </div>
@@ -103,7 +103,7 @@ const Landing = () => {
                         </div>
                     </div>
                     <div>
-                        <button className="bg-[#1CCBB1] int text-white text-base font-medium leading-8 py-1 border px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
+                        <button className="bg-[#1CCBB1] int text-white text-base font-medium leading-8 py-1 px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
                             Learn More
                         </button>
                     </div>
@@ -217,7 +217,7 @@ const Landing = () => {
                         </p>
                     </div>
                     <div className="mt-12 mx:mt-4">
-                        <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 border px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
+                        <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
                             Learn More
                         </button>
                     </div>
@@ -319,7 +319,7 @@ const Landing = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                    <button className="bg-white text-[#081815] text-base int font-bold leading-8 py-1 border px-6 rounded-md hover:bg-black hover:transition-all hover:text-[#ffffff]">
+                    <button className="bg-white text-[#081815] text-base int font-bold leading-8 py-1 px-6 rounded-md hover:bg-black hover:transition-all hover:text-[#ffffff]">
                         See More videos
                     </button>
                 </div>
