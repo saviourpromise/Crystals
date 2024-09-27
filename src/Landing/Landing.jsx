@@ -339,7 +339,7 @@ const Landing = () => {
                 <div className="flex bg-white py-1 mx:py-[6px] pr-1 rounded-[2rem] gap-1">
                     <input
                         type="text"
-                        className="text-[#576A67] rounded-[2rem] int mx:pr-0 pr-44 pl-2 ml-4 bg-inherit text-[15px] font-normal leading-7"
+                        className="text-[#576A67] outline-none rounded-[2rem] int mx:pr-0 pr-44 pl-2 ml-4 bg-inherit text-[15px] font-normal leading-7"
                         placeholder="Enter your email"
                     />
                     <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 mx:py-2 px-10 mx:px-4 rounded-[2rem] hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
