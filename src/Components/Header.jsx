@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import arrow from "../assets/arrow.svg";
 import { FaHamburger, FaTimes, } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import logo from "../assets/logoImage.jpeg";
 
 const Header = () => {
     const [menu, setmenu] = useState(false);
@@ -14,7 +15,7 @@ const Header = () => {
             <header>
                 <div className="hidden mx:flex mx:px-8 mx:py-2 mx:justify-between">
                     <p className="text-white text-xl font-bold leading-7 mx:text-3xl">
-                        <Link to="/">Logo</Link>
+                    <Link to="/">Logo</Link>
                     </p>
                     {!menu ? (
                         <FaHamburger
@@ -32,7 +33,7 @@ const Header = () => {
 
                 <div className="flex mx:flex-col mx:gap-4 items-center px-16 py-4 justify-between z-[-1]">
                     <p className="text-white text-xl font-bold leading-7 logo mx:hidden mx:text-2xl">
-                        <Link to="/">LOGO</Link>
+                        <Link to="/"><div className="w-44"><img src={logo} alt="" /></div></Link>
                     </p>
 
                     {menu ?  <div><div className="flex mx:justify-center mx:items-center mx:flex-col gap-[17px] mx:ml-0 ml-24">
@@ -59,21 +60,21 @@ const Header = () => {
                                 <p className="text-base font-semibold">Resources</p>
                             </div> */}
                         </div>
-                        <a
-                            href="www.com"
+                        <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
-                            Contact Us
-                        </a>
+                            <Link to="/contact">Contact Us</Link>
+                        </p>
                         <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
                             <Link to="/wttvip">FAQs</Link>
                         </p>
                     </div>
+                    <Link to="/wttbot">
                     <button className="bg-[#1CCBB1] mt-4 mb-4 text-white int text-base font-medium leading-8 py-1 border px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
                         Get Started
-                    </button></div> : ""}
+                    </button></Link></div> : ""}
 
                     <div className="flex mx:justify-center mx:hidden mx:items-center mx:flex-col gap-[17px] mx:ml-0 ml-24">
                         <p
@@ -99,21 +100,22 @@ const Header = () => {
                                 <p className="text-base font-semibold">Resources</p>
                             </div> */}
                         </div>
-                        <a
-                            href="www.com"
+                        <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
-                            Contact Us
-                        </a>
+                            <Link to="/contact">Contact Us</Link>
+                        </p>
                         <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
                             <Link to="/wttvip">FAQs</Link>
                         </p>
                     </div>
+                    <Link to="/wttbot">
                     <button className="bg-[#1CCBB1] mx:hidden text-white int text-base font-medium leading-8 py-1 border px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
                         Get Started
                     </button>
+                    </Link>
                 </div>
             </header>
         </div>

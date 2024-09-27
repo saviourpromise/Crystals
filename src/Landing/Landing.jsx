@@ -57,7 +57,7 @@ const Landing = () => {
                     <p className="text-lg font-medium int leading-6 text-[#1CCBB1]">
                         About crystals trading hub
                     </p>
-                    <p className="text-[#A4A4AD] mx:text-center mx:text-[36px] mx:leading-[49px] unv text-[50px] font-semibold leading-[61.5px] -mb-4 -mt-4">
+                    <p className="text-[#e4e4e7] mx:text-center mx:text-[36px] mx:leading-[49px] unv text-[50px] font-semibold leading-[61.5px] -mb-4 -mt-4">
                         Unveiling our story
                     </p>
                     <p className="text-[#A1A1AA] mx:text-center int mx:text-[12px] mx:leading-5 text-[17px] font-normal leading-7 border-b-[1px] border-b-[#272626] pb-6">
@@ -111,7 +111,7 @@ const Landing = () => {
             </div>
 
             <div className="flex mx:px-0 mx:justify-center mx:gap-2 mx:items-center mx:flex-col px-24 justify-between py-10">
-                <p className="font-semibold unv mx:text-center mx:text-[28px] mx:leading-[49px] text-[45px] leading-[41.5px] text-[#A4A4AD]">
+                <p className="font-semibold unv mx:text-center mx:text-[28px] mx:leading-[49px] text-[45px] leading-[41.5px] text-[#e4e4e7]">
                     Services we can offer you
                 </p>
                 <p className="font-normal mx:text-center int mx:text-[12px] mx:leading-6 text-[16.9px] leading-7 text-[#A1A1AACC]">
@@ -133,7 +133,7 @@ const Landing = () => {
                     <div>
                         <img src={toFro} alt="" />
                     </div>
-                    <p className="text-[#A4A4AD] unv font-semibold text-[21px]  leading-[27.3px]">
+                    <p className="text-[#e4e4e7] unv font-semibold text-[21px]  leading-[27.3px]">
                         Mentorship
                     </p>
                     <p className="text-[#A1A1AA] int font-normal text-base">
@@ -152,7 +152,7 @@ const Landing = () => {
                     <div>
                         <img src={forex} alt="" />
                     </div>
-                    <p className="text-[#A4A4AD] unv font-semibold text-[21px]  leading-[27.3px]">
+                    <p className="text-[#e4e4e7] unv font-semibold text-[21px]  leading-[27.3px]">
                         Free Forex training
                     </p>
                     <p className="text-[#A1A1AA] int font-normal text-base">
@@ -171,7 +171,7 @@ const Landing = () => {
                     <div>
                         <img src={vip} alt="" />
                     </div>
-                    <p className="text-[#A4A4AD] unv font-semibold text-[21px]  leading-[27.3px]">
+                    <p className="text-[#e4e4e7] unv font-semibold text-[21px]  leading-[27.3px]">
                         WT VIP Signals
                     </p>
                     <p className="text-[#A1A1AA] int font-normal text-base">
@@ -190,7 +190,7 @@ const Landing = () => {
                     <div>
                         <img src={toFro} alt="" />
                     </div>
-                    <p className="text-[#A4A4AD] unv font-semibold text-[21px]  leading-[27.3px]">
+                    <p className="text-[#e4e4e7] unv font-semibold text-[21px]  leading-[27.3px]">
                         WT Trading bot
                     </p>
                     <p className="text-[#A1A1AA] int font-normal text-base">
@@ -212,7 +212,7 @@ const Landing = () => {
                         <p className="text-[17px] mx:text-center text-[#1CCBB1] int font-medium leading-6">
                             Our Mission
                         </p>
-                        <p className="text-[50px] mx:text-center unv mx:text-[32px] mx:leading-[40px] font-semibold leading-[61.5px] text-[#A4A4AD]">
+                        <p className="text-[50px] mx:text-center unv mx:text-[32px] mx:leading-[40px] font-semibold leading-[61.5px] text-[#e4e4e7]">
                             Crystal trading hub’s Mission
                         </p>
                     </div>
@@ -230,7 +230,7 @@ const Landing = () => {
                                 1
                             </p>
                             <div className="flex flex-col gap-2">
-                                <p className="text-[21px] mx:text-center font-semibold unv leading-6 text-[#A4A4AD]">
+                                <p className="text-[21px] mx:text-center font-semibold unv leading-6 text-[#e4e4e7]">
                                     Secure Crypto Solutions
                                 </p>
                                 <p className="text-[#A1A1A1] mx:text-center font-normal int text-base leading-7">
@@ -245,7 +245,7 @@ const Landing = () => {
                                 2
                             </p>
                             <div className="flex flex-col gap-2">
-                                <p className="text-[21px] mx:text-center font-semibold unv leading-6 text-[#A4A4AD]">
+                                <p className="text-[21px] mx:text-center font-semibold unv leading-6 text-[#e4e4e7]">
                                     Empowering Crypto Education
                                 </p>
                                 <p className="text-[#A1A1A1] mx:text-center font-normal int text-base leading-7">
@@ -260,7 +260,7 @@ const Landing = () => {
                                 3
                             </p>
                             <div className="flex flex-col gap-2">
-                                <p className="text-[21px] mx:text-center font-semibold unv leading-6 text-[#A4A4AD]">
+                                <p className="text-[21px] mx:text-center font-semibold unv leading-6 text-[#e4e4e7]">
                                     Advancing Decentralization
                                 </p>
                                 <p className="text-[#A1A1A1] mx:text-center font-normal int text-base leading-7">

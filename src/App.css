@@ -61,9 +61,11 @@ body{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #c5d1ee;
+  box-shadow: inset 0 0 5px #000;
   border-radius: 80px;
 }
+
+
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
@@ -92,6 +94,10 @@ body{
   top: 0%;
   opacity: 0;
   transition: 0.3s ease-in-out;
+}
+
+.vis{
+  visibility: hidden;
 }
 
 .bgg{
