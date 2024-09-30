@@ -6,6 +6,7 @@ import arrowTo from "../assets/arrowTo.png";
 import Slider from "../Components/Slider";
 import Accordion from "../Components/Accordion";
 import Footer from "../Components/Footer";
+import Hero from "../Components/Hero";
 
 const Mentorship = () => {
   return (
@@ -13,16 +14,10 @@ const Mentorship = () => {
       <Header />
 
       <div className="bgg mx:-mt-10">
-        <div className="flex flex-col gap-4 justify-center items-center mx:h-[250px] h-[516px] edi">
-          <p className="font-bold mx:text-[60px] mx:mt-40 mx:leading-[80px] text-[77px] leading-[94.71px] text-[#e4e4e7] logo">
-            Mentorship
-          </p>
-          <p className="text-[16.9px] mx:pb-36 font-normal leading-7 text-[#A1A1AA] text-center int">
-            Commodo nec mi id ullamcorper vitae augue neque dis. Nunc lacinia
-            viverra orci diam. Nibh est vitae <br /> suspendisse parturient sed
-            lorem eu.
-          </p>
-        </div>
+        <Hero 
+        mainText={"Mentorship"}
+        subText={"How can you enjoy our free mentorship program?"}
+        />
       </div>
 
       <div className="bg-[#0D0F11] py-10">

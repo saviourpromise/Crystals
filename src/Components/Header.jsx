@@ -45,13 +45,13 @@ const Header = () => {
                         <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
-                            <Link to="/mentorship">Testimonials</Link>
+                            <Link to="/mentorship">Mentorship</Link>
                         </p>
                         <div className="flex gap-2 one">
                             <p
                                 className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                             >
-                                <Link to="/freeforex">Resources</Link>
+                                <Link to="/freeforex">FreeForex</Link>
                             </p>
                             <img src={arrow} alt="" className="mt-1 two" />
                             {/* <div className="flex flex-col bg-yellow-400 p-3 absolute dave rounded">
@@ -68,11 +68,11 @@ const Header = () => {
                         <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
-                            <Link to="/wttvip">FAQs</Link>
+                            <Link to="/wttvip">WttVip</Link>
                         </p>
                     </div>
                     <Link to="/wttbot">
-                    <button className="bg-[#1CCBB1] mt-4 mb-4 text-white int text-base font-medium leading-8 py-1 border px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
+                    <button className="bg-[#1CCBB1] mt-4 mb-4 text-white int text-base font-medium leading-8 py-1 px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
                         Get Started
                     </button></Link></div> : ""}
 
@@ -85,13 +85,13 @@ const Header = () => {
                         <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
-                            <Link to="/mentorship">Testimonials</Link>
+                            <Link to="/mentorship">Mentorship</Link>
                         </p>
                         <div className="flex gap-2 one">
                             <p
                                 className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                             >
-                                <Link to="/freeforex">Resources</Link>
+                                <Link to="/freeforex">FreeForex</Link>
                             </p>
                             <img src={arrow} alt="" className="mt-1 two" />
                             {/* <div className="flex flex-col bg-yellow-400 p-3 absolute dave rounded">
@@ -108,11 +108,11 @@ const Header = () => {
                         <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
-                            <Link to="/wttvip">FAQs</Link>
+                            <Link to="/wttvip">WttVip</Link>
                         </p>
                     </div>
                     <Link to="/wttbot">
-                    <button className="bg-[#1CCBB1] mx:hidden text-white int text-base font-medium leading-8 py-1 border px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
+                    <button className="bg-[#1CCBB1] mx:hidden text-white int text-base font-medium leading-8 py-1 px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
                         Get Started
                     </button>
                     </Link>

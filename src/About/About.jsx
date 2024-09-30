@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../Components/Header";
-import empty from "../assets/empty.png";
 import crypto from "../assets/crypto.svg";
 import ceo from "../assets/DSC_4101T.jpg";
 import Accordion from "../Components/Accordion";
@@ -19,7 +18,7 @@ const About = () => {
       <div className="bgg mx:-mt-10">
         <Hero
           mainText={"about us"}
-          subText={"who are we?"}
+          subText={"Who are we?"}
         />
       </div>
 
@@ -305,7 +304,7 @@ const About = () => {
             </p>
           </div>
           <div className="mt-12 mx:mt-4">
-            <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 border px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
+            <button className="bg-[#1CCBB1] text-white int text-base font-medium leading-8 py-1 px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
               Learn More
             </button>
           </div>

@@ -3,6 +3,7 @@ import Header from '../Components/Header'
 import Slider from '../Components/Slider'
 import Accordion from '../Components/Accordion'
 import Footer from '../Components/Footer'
+import Hero from '../Components/Hero'
 
 const WttBot = () => {
     return (
@@ -11,22 +12,16 @@ const WttBot = () => {
             <Header />
 
             <div className="bgg mx:-mt-10">
-                <div className="flex flex-col gap-4 justify-center items-center mx:h-[250px] h-[516px] edi">
-                    <p className="font-bold mx:text-center mx:text-[32px] mx:mt-40 mx:leading-[50px] text-[77px] leading-[94.71px] text-[#e4e4e7] logo">
-                        WTT Trading bot
-                    </p>
-                    <p className="text-[16.9px] mx:pb-36 font-normal leading-7 text-[#A1A1AA] text-center int">
-                        Commodo nec mi id ullamcorper vitae augue neque dis. Nunc lacinia
-                        viverra orci diam. Nibh est vitae <br /> suspendisse parturient sed
-                        lorem eu.
-                    </p>
-                </div>
+                <Hero 
+                mainText={"WTT Trading bot"}
+                subText={"Tryout our wtt trading bot"}
+                />
             </div>
 
             <div className='flex px-28 mx:px-0 justify-between flex-col gap-6 bg-[#0D0F11] py-20'>
                 <p className='text-white mx:text-center mx:text-[28px] mx:leading-[30px] text-[50px] leading-[61.5px] font-semibold unv'>Automate Your Trading with Our Advanced <br /> Trading Bot</p>
 
-                <p className='text-base mx:text-xs font-normal mx:leading-5 mx:text-center leading-7 text-white intt'>Elevate your trading experience with Crystals Trading Hub's VIP Signals Channel. Designed for traders who want to stay ahead of the market, our VIP <br /> Signals Channel offers real-time trading signals, expert analysis, and actionable insights to help you make informed trading decisions.</p>
+                <p className='text-base mx:text-xs font-normal mx:leading-5 mx:text-center leading-7 text-white intt'>Elevate your trading experience with Crystals Trading Hub's VIP Signals Channel. Designed for traders who want to stay ahead of the market, our VIP Signals Channel offers real-time trading signals, expert analysis, and actionable insights to help you make informed trading decisions.</p>
 
                 <div className='flex gap-4 mx:flex-col mx:justify-center mx:items-center'>
                     <div className='bg-[#042A24] w-[576px] h-[481px] mx:w-[370px] mx:h-[300px]'></div>

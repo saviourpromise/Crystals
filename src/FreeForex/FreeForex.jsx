@@ -5,6 +5,7 @@ import forex from "../assets/forex.svg";
 import imgReplace1 from "../assets/imgReplace1.png";
 import Accordion from "../Components/Accordion";
 import Footer from "../Components/Footer";
+import Hero from "../Components/Hero";
 
 const FreeForex = () => {
     return (
@@ -12,16 +13,10 @@ const FreeForex = () => {
             <Header />
 
             <div className="bgg mx:-mt-10">
-                <div className="flex flex-col gap-4 justify-center items-center mx:h-[250px] h-[516px] edi">
-                    <p className="font-bold mx:text-center mx:text-[32px] mx:mt-40 mx:leading-[50px] text-[77px] leading-[94.71px] text-[#e4e4e7] logo">
-                        Free Forex Training
-                    </p>
-                    <p className="text-[16.9px] mx:pb-36 font-normal leading-7 text-[#A1A1AA] text-center int">
-                        Commodo nec mi id ullamcorper vitae augue neque dis. Nunc lacinia
-                        viverra orci diam. Nibh est vitae <br /> suspendisse parturient sed
-                        lorem eu.
-                    </p>
-                </div>
+                <Hero 
+                mainText={"Free Forex Training"}
+                subText={"How can you enjoy our free forex training program?"}
+                />
             </div>
 
             <div className="flex mx:gap-10 mx:px-0 mx:flex-col px-20 justify-between bg-[#0D0F11] py-16">

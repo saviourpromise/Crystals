@@ -5,6 +5,7 @@ import crypto from "../assets/crypto.svg";
 import Slider from '../Components/Slider';
 import Accordion from '../Components/Accordion';
 import Footer from '../Components/Footer';
+import Hero from '../Components/Hero';
 
 const WttVip = () => {
     return (
@@ -12,16 +13,10 @@ const WttVip = () => {
             <Header />
 
             <div className="bgg mx:-mt-10">
-                <div className="flex flex-col gap-4 justify-center items-center mx:h-[250px] h-[516px] edi">
-                    <p className="font-bold mx:text-[40px] text-center mx:mt-40 mx:leading-[80px] text-[77px] leading-[94.71px] text-[#e4e4e7] logo">
-                        WTT VIP Signals
-                    </p>
-                    <p className="text-[16.9px] mx:pb-36 font-normal leading-7 text-[#A1A1AA] text-center int">
-                        Commodo nec mi id ullamcorper vitae augue neque dis. Nunc lacinia
-                        viverra orci diam. Nibh est vitae <br /> suspendisse parturient sed
-                        lorem eu.
-                    </p>
-                </div>
+                <Hero 
+                mainText={"WTT VIP Signals"}
+                subText={"Checkout our wtt vip signals"}
+                />
             </div>
 
             <div className='flex mx:px-0 mx:gap-6 mx:flex-col mx:justify-center mx:items-center px-28 justify-between bg-[#1CCBB1] py-20 mx:py-10'>

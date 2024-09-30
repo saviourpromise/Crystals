@@ -140,7 +140,7 @@ const Landing = () => {
                         Invest in crypto anytime, anywhere <br /> with our safe, secure, and
                         easy to <br /> use online platform
                     </p>
-                    <div className="flex gap-2 mt-2">
+                    <div className="flex gap-2 cursor-pointer mt-2">
                         <p className="text-base font-bold int leading-8 text-[#1CCBB1]">
                             Learn more
                         </p>
@@ -159,7 +159,7 @@ const Landing = () => {
                         Invest in crypto anytime, anywhere <br /> with our safe, secure, and
                         easy to <br /> use online platform
                     </p>
-                    <div className="flex gap-2 mt-2">
+                    <div className="flex gap-2 cursor-pointer mt-2">
                         <p className="text-base font-bold int leading-8 text-[#1CCBB1]">
                             Learn more
                         </p>
@@ -178,7 +178,7 @@ const Landing = () => {
                         Invest in crypto anytime, anywhere <br /> with our safe, secure, and
                         easy to <br /> use online platform
                     </p>
-                    <div className="flex gap-2 mt-2">
+                    <div className="flex gap-2 cursor-pointer mt-2">
                         <p className="text-base font-bold int leading-8 text-[#1CCBB1]">
                             Learn more
                         </p>
@@ -197,7 +197,7 @@ const Landing = () => {
                         Invest in crypto anytime, anywhere <br /> with our safe, secure, and
                         easy to <br /> use online platform
                     </p>
-                    <div className="flex gap-2 mt-2">
+                    <div className="flex gap-2 cursor-pointer mt-2">
                         <p className="text-base font-bold int leading-8 text-[#1CCBB1]">
                             Learn more
                         </p>
