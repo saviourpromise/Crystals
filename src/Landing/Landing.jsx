@@ -110,11 +110,11 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className="flex mx:px-0 mx:justify-center mx:gap-2 mx:items-center mx:flex-col px-24 justify-between py-10">
-                <p className="font-semibold unv mx:text-center mx:text-[28px] mx:leading-[49px] text-[45px] leading-[41.5px] text-[#e4e4e7]">
+            <div className="flex mx:px-0 justify-center mx:gap-2 items-center mx:flex-col px-24 py-10">
+                <p className="font-semibold unv text-center mx:text-[28px] mx:leading-[49px] text-[45px] leading-[41.5px] text-[#e4e4e7]">
                     Services we can offer you
                 </p>
-                <p className="font-normal mx:text-center int mx:text-[12px] mx:leading-6 text-[16.9px] leading-7 text-[#A1A1AACC]">
+                {/* <p className="font-normal mx:text-center int mx:text-[12px] mx:leading-6 text-[16.9px] leading-7 text-[#A1A1AACC]">
                     With Cobalt, managing your business finances is effortless, <br />
                     empowering, and anything but boring. Our intuitive platform brings{" "}
                     <br />
@@ -125,7 +125,7 @@ const Landing = () => {
                     <span className="text-[#E4E4E7]">
                         Say no to spreadsheets and tools designed in the 80s.
                     </span>
-                </p>
+                </p> */}
             </div>
 
             <div className="flex md:grid md:grid-cols-2 md:gap-8 mx:flex-col mx:px-0 mx:items-center mx:justify-center mx:gap-4 px-24 justify-between pb-20">

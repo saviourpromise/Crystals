@@ -71,6 +71,7 @@ body{
   width: 100%;
   top: 0%;
   background-color: black;
+  z-index: 1;
 }
 
 /* Handle */
