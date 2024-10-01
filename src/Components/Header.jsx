@@ -12,10 +12,10 @@ const Header = () => {
     };
     return (
         <div className="bg-black">
-            <header>
-                <div className="hidden mx:flex mx:px-8 mx:py-2 mx:justify-between">
+            <header className="ffff">
+                <div className="hidden mx:bg-[#000] w-[100%] mx:fixed mx:flex mx:px-8 mx:py-2 z-[1] mx:justify-between">
                     <p className="text-white text-xl font-bold leading-7 mx:text-3xl">
-                    <Link to="/"><div className="w-44 pt-2"><img src={logo} alt="" /></div></Link>
+                        <Link to="/"><div className="w-44 pt-2"><img src={logo} alt="" /></div></Link>
                     </p>
                     {!menu ? (
                         <FaHamburger
@@ -36,7 +36,7 @@ const Header = () => {
                         <Link to="/"><div className="w-44"><img src={logo} alt="" /></div></Link>
                     </p>
 
-                    {menu ?  <div><div className="flex mx:justify-center mx:items-center mx:flex-col gap-[17px] mx:ml-0 ml-24">
+                    {menu ? <div><div className="flex mx:justify-center mx:items-center mx:flex-col gap-[17px] mx:ml-0 mx:pt-12 ml-24">
                         <p
                             className="text-[#A6AAB2] int text-base mx:text-lg font-medium leading-6"
                         >
@@ -71,10 +71,10 @@ const Header = () => {
                             <Link to="/wttvip">WttVip</Link>
                         </p>
                     </div>
-                    <Link to="/wttbot">
-                    <button className="bg-[#1CCBB1] mt-4 mb-4 text-white int text-base font-medium leading-8 py-1 px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
-                        Get Started
-                    </button></Link></div> : ""}
+                        <Link to="/wttbot">
+                            <button className="bg-[#1CCBB1] mt-4 text-white int text-base font-medium leading-8 py-1 px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
+                                Get Started
+                            </button></Link></div> : ""}
 
                     <div className="flex mx:justify-center mx:hidden mx:items-center mx:flex-col gap-[17px] mx:ml-0 ml-24">
                         <p
@@ -112,9 +112,9 @@ const Header = () => {
                         </p>
                     </div>
                     <Link to="/wttbot">
-                    <button className="bg-[#1CCBB1] mx:hidden text-white int text-base font-medium leading-8 py-1 px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
-                        Get Started
-                    </button>
+                        <button className="bg-[#1CCBB1] mx:hidden text-white int text-base font-medium leading-8 py-1 px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
+                            Get Started
+                        </button>
                     </Link>
                 </div>
             </header>

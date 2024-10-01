@@ -15,7 +15,7 @@ const Contact = () => {
         <div className='bg-black'>
             <Header />
 
-            <div className="bgg mx:-mt-10">
+            <div className="bgg">
                 <Hero 
                 mainText={"Contact us"}
                 subText={"Wanna contact us?"}

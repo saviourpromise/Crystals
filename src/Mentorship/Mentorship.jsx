@@ -13,7 +13,7 @@ const Mentorship = () => {
     <div className="bg-black">
       <Header />
 
-      <div className="bgg mx:-mt-10">
+      <div className="bgg">
         <Hero 
         mainText={"Mentorship"}
         subText={"How can you enjoy our free mentorship program?"}

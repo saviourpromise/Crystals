@@ -11,7 +11,7 @@ const WttBot = () => {
 
             <Header />
 
-            <div className="bgg mx:-mt-10">
+            <div className="bgg">
                 <Hero 
                 mainText={"WTT Trading bot"}
                 subText={"Tryout our wtt trading bot"}

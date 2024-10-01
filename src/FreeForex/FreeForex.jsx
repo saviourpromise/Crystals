@@ -12,7 +12,7 @@ const FreeForex = () => {
         <div className="bg-black">
             <Header />
 
-            <div className="bgg mx:-mt-10">
+            <div className="bgg">
                 <Hero 
                 mainText={"Free Forex Training"}
                 subText={"How can you enjoy our free forex training program?"}

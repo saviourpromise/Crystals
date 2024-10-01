@@ -65,7 +65,13 @@ body{
   border-radius: 80px;
 }
 
-
+.ffff{
+  position: fixed;
+  left: 0%;
+  width: 100%;
+  top: 0%;
+  background-color: black;
+}
 
 /* Handle */
 ::-webkit-scrollbar-thumb {

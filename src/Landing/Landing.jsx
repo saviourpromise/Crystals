@@ -23,8 +23,8 @@ const Landing = () => {
             <Header />
 
             <div className="bgg">
-                <div className="flex edi flex-col gap-4 justify-center items-center mx:-mt-20 mx:pt-0 pt-20">
-                    <p className="text-white text-sm px-4 rounded-2xl mx:mt-20 flex items-center int justify-center py-1 font-medium leading-6 bg-gradient-to-b from-[#1a4943] to-[#021411]">
+                <div className="flex edi flex-col gap-4 justify-center items-center mx:-mt-20 mx:pt-10 pt-28">
+                    <p className="text-white text-sm px-4 rounded-2xl mx:mt-28 flex items-center int justify-center py-1 font-medium leading-6 bg-gradient-to-b from-[#1a4943] to-[#021411]">
                         Expert advice, forex mastery, mentorship
                     </p>
 

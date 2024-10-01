@@ -15,7 +15,7 @@ const About = () => {
     <div className="bg-black">
       <Header />
 
-      <div className="bgg mx:-mt-10">
+      <div className="bgg">
         <Hero
           mainText={"about us"}
           subText={"Who are we?"}

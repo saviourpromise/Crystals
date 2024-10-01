@@ -12,7 +12,7 @@ const WttVip = () => {
         <div className='bg-black'>
             <Header />
 
-            <div className="bgg mx:-mt-10">
+            <div className="bgg">
                 <Hero 
                 mainText={"WTT VIP Signals"}
                 subText={"Checkout our wtt vip signals"}
