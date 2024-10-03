@@ -24,66 +24,53 @@ const About = () => {
 
       <div className="bg-[#0D0F11] flex flex-col gap-8 py-10">
         <div className="flex flex-col gap-[17px] mx:px-0 px-16">
-          <div>
-            <p className="text-[#e4e4e7] mx:text-center mx:text-[26px] mx:leading-[40px] text-[50px] leading-[61.5px] font-semibold unv">
+          <div className="mx-1">
+            <p className="text-[#e4e4e7] mx:text-left mx:text-[26px] mx:leading-[40px] text-[50px] leading-[61.5px] font-semibold unv">
               About us
             </p>
-            <p className="text-[18px] mx:text-sm font-normal mx:text-center leading-[33px] text-[#f1f1f1] intt">
+            <p className="text-[18px] mx:text-sm font-normal mx:text-left leading-[33px] text-[#f1f1f1] intt">
               Crystal Pips Hub, officially recognized by the Corporate Affairs Commission with registration number RC
               7825446 has a mission to transform trading education,making it accessible and effective for all while delivering exceptional learning experiences.
               "The heartbeat of Crystal Pips Hub is a profound belief: that informed trading decisions and sustained success stem from a robust educational framework and dedicated mentorship. We're driven not by the pursuit of accolades, but by a passion to ignite transformative growth in aspiring traders, propelling them toward extraordinary financial fluency."
-
             </p>
           </div>
-          <div>
-            <p className="text-[#e4e4e7] mt-[26px] mx:text-center mx:text-[26px] mx:leading-[40px] text-[50px] leading-[61.5px] font-semibold unv">
-              Our commitment to excellence:
 
+          <div className="mx-1">
+            <p className="text-[#e4e4e7] mt-[26px] mx:text-left mx:text-[22px] mx:leading-[40px] text-[50px] leading-[61.5px] font-semibold unv">
+              Our commitment to excellence:
             </p>
-            <p className="text-[18px] mx:text-sm font-normal mx:text-center leading-[33px] text-[#f1f1f1] intt">
+            <p className="text-[18px] mx:text-sm font-normal mx:text-left leading-[33px] text-[#f1f1f1] intt">
               Our relentless pursuit of excellence drives us to innovate, adapt, and evolve with the dynamic trading landscape.
               We're not just meeting the highest standards - we're setting them. Join us in our mission to revolutionize financial
               education and unlock unprecedented trading potential."
-
-
             </p>
           </div>
-          <div>
-            <p className="text-[#e4e4e7] mt-[26px] mx:text-center mx:text-[26px] mx:leading-[40px] text-[50px] leading-[61.5px] font-semibold unv">
+
+          <div className="mx-1">
+            <p className="text-[#e4e4e7] mt-[26px] mx:text-left mx:text-[22px] mx:leading-[40px] text-[50px] leading-[61.5px] font-semibold unv">
               Navigating the Financial Markets:
-
-
             </p>
-            <p className="text-[18px] mx:text-sm font-normal mx:text-center leading-[33px] text-[#f1f1f1] intt">
+            <p className="text-[18px] mx:text-sm font-normal mx:text-left leading-[33px] text-[#f1f1f1] intt">
               In the vast and intricate ocean of finance, we serveas your expert guide, providing the essential tools,
               knowledge, and expertise to empower confident navigation. Our dedication goes beyond education, cultivating a supportive community where
               individuals can flourish, share knowledge, and achieve success together.
-
-
-
             </p>
           </div>
-          <div>
-            <p className="text-[#e4e4e7] mt-[26px] mx:text-center mx:text-[26px] mx:leading-[40px] text-[50px] leading-[61.5px] font-semibold unv">
+
+          <div className="mx-1">
+            <p className="text-[#e4e4e7] mt-[26px] mx:text-left mx:text-[22px] mx:leading-[40px] text-[50px] leading-[61.5px] font-semibold unv">
               Transformative Learning at Crystal Pips Hub:
-
-
-
             </p>
-            <p className="text-[18px] mx:text-sm font-normal mx:text-center leading-[33px] text-[#f1f1f1] intt">
+            <p className="text-[18px] mx:text-sm font-normal mx:text-left leading-[33px] text-[#f1f1f1] intt">
               Where Trading Meets Personal Growth Our holistic approach extends beyond technical expertise, fostering a comprehensive learning
               experience that cultivates well-rounded, resilient traders. We nurture a deep understanding of market complexities, while developing the mental
               agility and emotional intelligence crucial for sustained success.
-
             </p>
 
-            <p className="text-[18px] mt-10 mx:text-sm font-normal mx:text-center leading-[33px] text-[#f1f1f1] intt">
+            <p className="text-[18px] mt-10 mx:text-sm font-normal mx:text-left leading-[33px] text-[#f1f1f1] intt">
               Crystal Pips Hub is more than an educational institution - it's a vibrant community where like-minded individuals share knowledge, insights, and strategies.
               Our collaborative environment sparks growth, camaraderie, and collective evolution.
               Join us on a transformative journey that redefines your understanding of trading and empowers you with the skills, mindset, and support network necessary for enduring success.
-
-
-
             </p>
           </div>
         </div>
