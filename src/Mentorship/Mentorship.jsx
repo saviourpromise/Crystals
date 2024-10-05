@@ -29,7 +29,7 @@ const Mentorship = () => {
             Unlock Your Trading Potential with <br /> Personalized Guidance
           </p>
           <p className="text-center mx:leading-6 text-[#AAAAB3] leading-7 text-base intt font-normal">
-            At Crystals Trading Hub, we believe that every trader’s journey is
+            At Crystal pips Hub, we believe that every trader’s journey is
             unique. Our Mentorship <br /> Program is designed to provide you
             with the personalized guidance, support, and <br /> expertise you
             need to achieve your trading goals.
