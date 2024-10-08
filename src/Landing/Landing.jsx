@@ -15,8 +15,11 @@ import Youtube from "../assets/Youtube.svg";
 import Accordion from "../Components/Accordion";
 import Slider from "../Components/Slider";
 import Footer from "../Components/Footer";
+import { useNavigate } from "react-router-dom";
 
 const Landing = () => {
+
+    const nav = useNavigate()
 
     return (
         <div className="bg-black">
@@ -30,7 +33,7 @@ const Landing = () => {
 
                     <p className="text-[#e4e4e7] text-[77px] leading-[94px] mx:text-[30px] mx:leading-8 text-center font-semibold fff">
                         Achieve Financial Excellence <br /> with{" "}
-                        <span className="text-[#1CCBB1]">Crystals</span> trading hub
+                        <span className="text-[#1CCBB1]">Crystal</span> Pips Hub
                     </p>
                     <p className="text-lg mx:text-[15px] mx:leading-5 font-normal leading-8 text-[#A6AAB2] int text-center tit">
                         Unlock your trading potential with our expert-led courses and
@@ -55,13 +58,13 @@ const Landing = () => {
 
                 <div className="flex flex-col mx:justify-center mx:items-center mx:gap-8 gap-5">
                     <p className="text-lg font-medium int leading-6 text-[#1CCBB1]">
-                        About crystals trading hub
+                        About crystal pips hub
                     </p>
                     <p className="text-[#e4e4e7] mx:text-center mx:text-[36px] mx:leading-[49px] unv text-[50px] font-semibold leading-[61.5px] -mb-4 -mt-4">
                         Unveiling our story
                     </p>
                     <p className="text-[#A1A1AA] mx:text-center int mx:text-[12px] mx:leading-5 text-[17px] font-normal leading-7 border-b-[1px] border-b-[#272626] pb-6">
-                        Crystals Trading Hub is dedicated to empowering individuals with
+                        Crystal Pip Hub is dedicated to empowering individuals with
                         <br /> the knowledge and skills needed to thrive in the Forex
                         market. We <br />
                         believe in providing comprehensive education and ongoing support{" "}
@@ -103,7 +106,7 @@ const Landing = () => {
                         </div>
                     </div>
                     <div>
-                        <button className="bg-[#1CCBB1] int text-white text-base font-medium leading-8 py-1 px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
+                        <button onClick={()=>nav("/about")} className="bg-[#1CCBB1] int text-white text-base font-medium leading-8 py-1 px-10 rounded-md hover:bg-[#256e62] hover:transition-all hover:text-[#ffffff]">
                             Learn More
                         </button>
                     </div>
@@ -140,7 +143,7 @@ const Landing = () => {
                         Invest in crypto anytime, anywhere <br /> with our safe, secure, and
                         easy to <br /> use online platform
                     </p>
-                    <div className="flex gap-2 cursor-pointer mt-2">
+                    <div onClick={()=>nav("/mentorship")} className="flex gap-2 cursor-pointer mt-2">
                         <p className="text-base font-bold int leading-8 text-[#1CCBB1]">
                             Learn more
                         </p>
@@ -159,7 +162,7 @@ const Landing = () => {
                         Invest in crypto anytime, anywhere <br /> with our safe, secure, and
                         easy to <br /> use online platform
                     </p>
-                    <div className="flex gap-2 cursor-pointer mt-2">
+                    <div onClick={()=>nav("/freeforex")} className="flex gap-2 cursor-pointer mt-2">
                         <p className="text-base font-bold int leading-8 text-[#1CCBB1]">
                             Learn more
                         </p>
@@ -172,13 +175,13 @@ const Landing = () => {
                         <img src={vip} alt="" />
                     </div>
                     <p className="text-[#e4e4e7] unv font-semibold text-[21px]  leading-[27.3px]">
-                        WT VIP Signals
+                        TWT VIP Signals
                     </p>
                     <p className="text-[#A1A1AA] int font-normal text-base">
                         Invest in crypto anytime, anywhere <br /> with our safe, secure, and
                         easy to <br /> use online platform
                     </p>
-                    <div className="flex gap-2 cursor-pointer mt-2">
+                    <div onClick={()=>nav("/wttvip")} className="flex gap-2 cursor-pointer mt-2">
                         <p className="text-base font-bold int leading-8 text-[#1CCBB1]">
                             Learn more
                         </p>
@@ -191,13 +194,13 @@ const Landing = () => {
                         <img src={toFro} alt="" />
                     </div>
                     <p className="text-[#e4e4e7] unv font-semibold text-[21px]  leading-[27.3px]">
-                        WT Trading bot
+                        TWT Trading bot
                     </p>
                     <p className="text-[#A1A1AA] int font-normal text-base">
                         Invest in crypto anytime, anywhere <br /> with our safe, secure, and
                         easy to <br /> use online platform
                     </p>
-                    <div className="flex gap-2 cursor-pointer mt-2">
+                    <div onClick={()=>nav("/wttvip")} className="flex gap-2 cursor-pointer mt-2">
                         <p className="text-base font-bold int leading-8 text-[#1CCBB1]">
                             Learn more
                         </p>

@@ -7,7 +7,7 @@ const Accordion = () => {
 
     const data = [
         {
-            question: "What do i learn from Crystals trading hub?",
+            question: "What do i learn from Crystal pips hub?",
             answer:
                 "Lorem ipsum dolor sit amet, consectetur cdolor col adipiscing elit. Integer mattis nunc augue vel lacinia erat euismod ut. Sed eleifend tellus nonole tincidunt aliquet. Fusce aliquam mi felis.",
         },

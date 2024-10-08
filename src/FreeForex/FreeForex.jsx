@@ -31,7 +31,7 @@ const FreeForex = () => {
                     </p>
 
                     <p className="mx:leading-6 text-[#AAAAB3] mx:text-base leading-7 text-base intt font-normal mx:text-center">
-                        At Crystals Trading Hub, we believe that quality education should be
+                        At Crystal pips Hub, we believe that quality education should be
                         accessible to <br /> everyone. Our Free Forex Training program is
                         designed to introduce you to the <br /> fundamentals of Forex
                         trading and provide you with the knowledge you need to start your{" "}

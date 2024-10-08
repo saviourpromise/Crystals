@@ -23,7 +23,7 @@ const WttVip = () => {
                 <div className='flex flex-col gap-4 my-auto'>
                     <p className='text-white mx:text-center mx:text-[32px] mx:leading-[36px] text-[50px] leading-[61.5px] font-semibold unv'>Gain a Competitive Edge <br /> with Our Exclusive VIP <br /> Signals Channel</p>
 
-                    <p className='text-base mx:text-sm font-normal mx:leading-5 mx:text-center leading-7 text-white intt'>Elevate your trading experience with Crystals Trading Hub's VIP Signals Channel. Designed <br /> for traders who want to stay ahead of the market, our VIP Signals Channel offers real-time <br /> trading signals, expert analysis, and actionable insights to help you make informed trading <br /> decisions.</p>
+                    <p className='text-base mx:text-sm font-normal mx:leading-5 mx:text-center leading-7 text-white intt'>Elevate your trading experience with Crystal pips Hub's VIP Signals Channel. Designed <br /> for traders who want to stay ahead of the market, our VIP Signals Channel offers real-time <br /> trading signals, expert analysis, and actionable insights to help you make informed trading <br /> decisions.</p>
 
                     <div className='mx:flex mx:justify-center mx:items-center'>
                         <button className="bg-white text-[#000000] unv text-base font-medium leading-8 py-1 px-10 rounded-md hover:bg-[#1f1e1e] transition-all duration-500 hover:text-[#ffffff]">
@@ -150,8 +150,8 @@ const WttVip = () => {
                 </p>
 
                 <p className="mx:leading-6 text-[#AAAAB3] mx:text-xs leading-7 text-base intt font-normal mx:text-center">
-                    At Crystals Trading Hub, we believe that every trader’s journey is unique. <br /> Our Mentorship Program is designed to provide you with the personalized <br /> guidance, support, and expertise you need to achieve your trading goals. <br />
-                    At Crystals Trading Hub, we believe that every trader’s journey is unique. <br /> Our Mentorship Program is designed to provide you with the personalized <br /> guidance, support, and expertise you need to achieve your trading goals.
+                    At Crystal pips Hub, we believe that every trader’s journey is unique. <br /> Our Mentorship Program is designed to provide you with the personalized <br /> guidance, support, and expertise you need to achieve your trading goals. <br />
+                    At Crystal pips Hub, we believe that every trader’s journey is unique. <br /> Our Mentorship Program is designed to provide you with the personalized <br /> guidance, support, and expertise you need to achieve your trading goals.
                 </p>
             </div>
             </div>
